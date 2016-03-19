@@ -1,0 +1,27 @@
+{
+  "name": "snap.svg.paragraph",
+  "main": "Snap.svg.paragraph.js",
+  "homepage": "https://github.com/MDBox/Snap.svg.paragraph",
+  "authors": [
+    "Michael Bawiec <michael.bawiec@gmail.com>"
+  ],
+  "description": "Plugin for Snap.svg to allow paragraph foreign elements.",
+  "moduleType": [],
+  "keywords": [
+    "Snap.svg",
+    "svg",
+    "word-wrap",
+    "paragraph"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Snap.svg": "snap.svg#^0.4.1"
+  }
+}
