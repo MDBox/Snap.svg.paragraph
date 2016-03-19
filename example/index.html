@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>Test</title>
+</head>
+<body>
+
+
+<script src="snap.svg.js"></script>
+<script src="snap.svg.paragraph.js"></script>
+<script>
+  var snap = Snap();
+  var root = snap.group();
+  var p = snap.paragraph('This is a long paragraph to test word wrapping function.  You can \\n or use p element word wrap.', 5, 5, 200);
+  root.append(p);
+</script>
+
+</body>
+</html>
