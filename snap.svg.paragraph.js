@@ -33,7 +33,7 @@ SOFTWARE.
       */
       Paper.prototype.paragraph = function(text, x, y, width, height){
         var p = document.createElement("p");
-        p.innerText = text;
+        p.textContent = text;
         if(width){ p.style.width = width+"px"; }
         if(height){ p.style.height = width+"px"; }
         p.style.visibility = "hidden";
