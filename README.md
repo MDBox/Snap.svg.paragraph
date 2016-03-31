@@ -12,7 +12,7 @@ Plugin for Snap.svg to allow paragraph foreign elements.
 ````
 
 ##Usage
-
+paper.paragraph(text, x, y, width, height);
 ````
   var paper = Snap();
   var root = snap.group();
